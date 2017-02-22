@@ -7,37 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37A64A071E5448430064CF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A64A061E5448430064CF8B /* AppDelegate.swift */; };
+		377C228F1E55E21200BDAA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C228E1E55E21200BDAA15 /* AppDelegate.swift */; };
+		377C22931E55E21200BDAA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C22921E55E21200BDAA15 /* Assets.xcassets */; };
+		377C22961E55E21200BDAA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377C22941E55E21200BDAA15 /* Main.storyboard */; };
+		377C229C1E55E2F500BDAA15 /* BetterUpdatesStartupLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377C228C1E55E21200BDAA15 /* BetterUpdatesStartupLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		379903911E5D999500AD35B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379903901E5D999500AD35B8 /* AppDelegate.swift */; };
 		37A64A091E5448430064CF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A64A081E5448430064CF8B /* ViewController.swift */; };
 		37A64A0B1E5448430064CF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A64A0A1E5448430064CF8B /* Assets.xcassets */; };
-		37A64A0E1E5448430064CF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A64A0C1E5448430064CF8B /* Main.storyboard */; };
+		37A64A351E5477A20064CF8B /* CommerceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A64A341E5477A20064CF8B /* CommerceKit.framework */; };
+		37A64A371E5477C90064CF8B /* StoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A64A361E5477C90064CF8B /* StoreFoundation.framework */; };
+		37CF83201E5503E600B9FDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CF831E1E5503E600B9FDB8 /* Main.storyboard */; };
+		37E9B31D1E5493DF006825F2 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B3151E5493DF006825F2 /* Downloader.swift */; };
+		37E9B31E1E5493DF006825F2 /* ISStoreAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B3161E5493DF006825F2 /* ISStoreAccount.swift */; };
+		37E9B31F1E5493DF006825F2 /* PurchaseDownloadObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B3171E5493DF006825F2 /* PurchaseDownloadObserver.swift */; };
+		37E9B3201E5493DF006825F2 /* SSPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B3181E5493DF006825F2 /* SSPurchase.swift */; };
+		37E9B3211E5493DF006825F2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B3191E5493DF006825F2 /* Error.swift */; };
+		37E9B3231E5493DF006825F2 /* NSURLSession+Synchronous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B31B1E5493DF006825F2 /* NSURLSession+Synchronous.swift */; };
+		37E9B3241E5493DF006825F2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9B31C1E5493DF006825F2 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		377C229B1E55E2C400BDAA15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				377C229C1E55E2F500BDAA15 /* BetterUpdatesStartupLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		377C228C1E55E21200BDAA15 /* BetterUpdatesStartupLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterUpdatesStartupLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377C228E1E55E21200BDAA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377C22921E55E21200BDAA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377C22951E55E21200BDAA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377C22971E55E21200BDAA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C229D1E55E31900BDAA15 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		379903901E5D999500AD35B8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A64A031E5448430064CF8B /* BetterUpdates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterUpdates.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A64A061E5448430064CF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A64A081E5448430064CF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37A64A0A1E5448430064CF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37A64A0D1E5448430064CF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37A64A0F1E5448430064CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A64A151E5450D80064CF8B /* NSUserNotification_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSUserNotification_Private.h; path = ../NSUserNotification_Private.h; sourceTree = "<group>"; };
+		37A64A161E5451950064CF8B /* BetterUpdates-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterUpdates-Bridging-Header.h"; sourceTree = "<group>"; };
+		37A64A1B1E5473E90064CF8B /* CKAccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccountStore.h; sourceTree = "<group>"; };
+		37A64A1C1E5473E90064CF8B /* CKDownloadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDownloadQueue.h; sourceTree = "<group>"; };
+		37A64A1D1E5473E90064CF8B /* CKPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPurchaseController.h; sourceTree = "<group>"; };
+		37A64A1E1E5473E90064CF8B /* CKServiceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKServiceInterface.h; sourceTree = "<group>"; };
+		37A64A1F1E5473E90064CF8B /* CKSoftwareMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSoftwareMap.h; sourceTree = "<group>"; };
+		37A64A201E5473E90064CF8B /* CKUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKUpdateController.h; sourceTree = "<group>"; };
+		37A64A211E5473E90064CF8B /* ISStoreURLOperationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISStoreURLOperationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		37A64A231E5473E90064CF8B /* CKSoftwareProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSoftwareProduct.h; sourceTree = "<group>"; };
+		37A64A241E5473E90064CF8B /* CKUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKUpdate.h; sourceTree = "<group>"; };
+		37A64A251E5473E90064CF8B /* ISAccountService-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISAccountService-Protocol.h"; sourceTree = "<group>"; };
+		37A64A261E5473E90064CF8B /* ISAuthenticationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAuthenticationContext.h; sourceTree = "<group>"; };
+		37A64A271E5473E90064CF8B /* ISOperationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISOperationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		37A64A281E5473E90064CF8B /* ISServiceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISServiceProxy.h; sourceTree = "<group>"; };
+		37A64A291E5473E90064CF8B /* ISServiceRemoteObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISServiceRemoteObject-Protocol.h"; sourceTree = "<group>"; };
+		37A64A2A1E5473E90064CF8B /* ISStoreAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISStoreAccount.h; sourceTree = "<group>"; };
+		37A64A2B1E5473E90064CF8B /* ISStoreClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISStoreClient.h; sourceTree = "<group>"; };
+		37A64A2C1E5473E90064CF8B /* ISURLOperationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISURLOperationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		37A64A2D1E5473E90064CF8B /* SSDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDownload.h; sourceTree = "<group>"; };
+		37A64A2E1E5473E90064CF8B /* SSDownloadMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDownloadMetadata.h; sourceTree = "<group>"; };
+		37A64A2F1E5473E90064CF8B /* SSDownloadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDownloadPhase.h; sourceTree = "<group>"; };
+		37A64A301E5473E90064CF8B /* SSDownloadStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDownloadStatus.h; sourceTree = "<group>"; };
+		37A64A311E5473E90064CF8B /* SSPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPurchase.h; sourceTree = "<group>"; };
+		37A64A321E5473E90064CF8B /* SSPurchaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPurchaseResponse.h; sourceTree = "<group>"; };
+		37A64A341E5477A20064CF8B /* CommerceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommerceKit.framework; path = ../../../../../System/Library/PrivateFrameworks/CommerceKit.framework; sourceTree = "<group>"; };
+		37A64A361E5477C90064CF8B /* StoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreFoundation.framework; path = ../../../../../System/Library/PrivateFrameworks/StoreFoundation.framework; sourceTree = "<group>"; };
+		37CF831F1E5503E600B9FDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E9B3151E5493DF006825F2 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		37E9B3161E5493DF006825F2 /* ISStoreAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISStoreAccount.swift; sourceTree = "<group>"; };
+		37E9B3171E5493DF006825F2 /* PurchaseDownloadObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseDownloadObserver.swift; sourceTree = "<group>"; };
+		37E9B3181E5493DF006825F2 /* SSPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPurchase.swift; sourceTree = "<group>"; };
+		37E9B3191E5493DF006825F2 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		37E9B31B1E5493DF006825F2 /* NSURLSession+Synchronous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Synchronous.swift"; sourceTree = "<group>"; };
+		37E9B31C1E5493DF006825F2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37A64A001E5448430064CF8B /* Frameworks */ = {
+		377C22891E55E21200BDAA15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37A64A001E5448430064CF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A64A371E5477C90064CF8B /* StoreFoundation.framework in Frameworks */,
+				37A64A351E5477A20064CF8B /* CommerceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		377C228D1E55E21200BDAA15 /* BetterUpdatesStartupLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				377C228E1E55E21200BDAA15 /* AppDelegate.swift */,
+				377C22921E55E21200BDAA15 /* Assets.xcassets */,
+				377C22941E55E21200BDAA15 /* Main.storyboard */,
+				377C22971E55E21200BDAA15 /* Info.plist */,
+			);
+			path = BetterUpdatesStartupLauncher;
+			sourceTree = "<group>";
+		};
 		37A649FA1E5448430064CF8B = {
 			isa = PBXGroup;
 			children = (
 				37A64A051E5448430064CF8B /* BetterUpdates */,
+				377C228D1E55E21200BDAA15 /* BetterUpdatesStartupLauncher */,
 				37A64A041E5448430064CF8B /* Products */,
+				37A64A331E5477A20064CF8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				37A64A031E5448430064CF8B /* BetterUpdates.app */,
+				377C228C1E55E21200BDAA15 /* BetterUpdatesStartupLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,18 +141,117 @@
 		37A64A051E5448430064CF8B /* BetterUpdates */ = {
 			isa = PBXGroup;
 			children = (
-				37A64A061E5448430064CF8B /* AppDelegate.swift */,
+				37E9B3131E5493DF006825F2 /* mas-cli */,
+				379903901E5D999500AD35B8 /* AppDelegate.swift */,
 				37A64A081E5448430064CF8B /* ViewController.swift */,
+				37CF831E1E5503E600B9FDB8 /* Main.storyboard */,
 				37A64A0A1E5448430064CF8B /* Assets.xcassets */,
-				37A64A0C1E5448430064CF8B /* Main.storyboard */,
 				37A64A0F1E5448430064CF8B /* Info.plist */,
+				37A64A191E5473E90064CF8B /* PrivateHeaders */,
+				37A64A161E5451950064CF8B /* BetterUpdates-Bridging-Header.h */,
 			);
 			path = BetterUpdates;
+			sourceTree = "<group>";
+		};
+		37A64A191E5473E90064CF8B /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				37A64A151E5450D80064CF8B /* NSUserNotification_Private.h */,
+				37A64A1A1E5473E90064CF8B /* CommerceKit */,
+				37A64A221E5473E90064CF8B /* StoreFoundation */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		37A64A1A1E5473E90064CF8B /* CommerceKit */ = {
+			isa = PBXGroup;
+			children = (
+				37A64A1B1E5473E90064CF8B /* CKAccountStore.h */,
+				37A64A1C1E5473E90064CF8B /* CKDownloadQueue.h */,
+				37A64A1D1E5473E90064CF8B /* CKPurchaseController.h */,
+				37A64A1E1E5473E90064CF8B /* CKServiceInterface.h */,
+				37A64A1F1E5473E90064CF8B /* CKSoftwareMap.h */,
+				37A64A201E5473E90064CF8B /* CKUpdateController.h */,
+				37A64A211E5473E90064CF8B /* ISStoreURLOperationDelegate-Protocol.h */,
+			);
+			path = CommerceKit;
+			sourceTree = "<group>";
+		};
+		37A64A221E5473E90064CF8B /* StoreFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				37A64A231E5473E90064CF8B /* CKSoftwareProduct.h */,
+				37A64A241E5473E90064CF8B /* CKUpdate.h */,
+				37A64A251E5473E90064CF8B /* ISAccountService-Protocol.h */,
+				37A64A261E5473E90064CF8B /* ISAuthenticationContext.h */,
+				37A64A271E5473E90064CF8B /* ISOperationDelegate-Protocol.h */,
+				37A64A281E5473E90064CF8B /* ISServiceProxy.h */,
+				37A64A291E5473E90064CF8B /* ISServiceRemoteObject-Protocol.h */,
+				37A64A2A1E5473E90064CF8B /* ISStoreAccount.h */,
+				37A64A2B1E5473E90064CF8B /* ISStoreClient.h */,
+				37A64A2C1E5473E90064CF8B /* ISURLOperationDelegate-Protocol.h */,
+				37A64A2D1E5473E90064CF8B /* SSDownload.h */,
+				37A64A2E1E5473E90064CF8B /* SSDownloadMetadata.h */,
+				37A64A2F1E5473E90064CF8B /* SSDownloadPhase.h */,
+				37A64A301E5473E90064CF8B /* SSDownloadStatus.h */,
+				37A64A311E5473E90064CF8B /* SSPurchase.h */,
+				37A64A321E5473E90064CF8B /* SSPurchaseResponse.h */,
+			);
+			path = StoreFoundation;
+			sourceTree = "<group>";
+		};
+		37A64A331E5477A20064CF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377C229D1E55E31900BDAA15 /* ServiceManagement.framework */,
+				37A64A361E5477C90064CF8B /* StoreFoundation.framework */,
+				37A64A341E5477A20064CF8B /* CommerceKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E9B3131E5493DF006825F2 /* mas-cli */ = {
+			isa = PBXGroup;
+			children = (
+				37E9B3141E5493DF006825F2 /* AppStore */,
+				37E9B3191E5493DF006825F2 /* Error.swift */,
+				37E9B31B1E5493DF006825F2 /* NSURLSession+Synchronous.swift */,
+				37E9B31C1E5493DF006825F2 /* Utilities.swift */,
+			);
+			path = "mas-cli";
+			sourceTree = "<group>";
+		};
+		37E9B3141E5493DF006825F2 /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				37E9B3151E5493DF006825F2 /* Downloader.swift */,
+				37E9B3161E5493DF006825F2 /* ISStoreAccount.swift */,
+				37E9B3171E5493DF006825F2 /* PurchaseDownloadObserver.swift */,
+				37E9B3181E5493DF006825F2 /* SSPurchase.swift */,
+			);
+			path = AppStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		377C228B1E55E21200BDAA15 /* BetterUpdatesStartupLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377C22981E55E21200BDAA15 /* Build configuration list for PBXNativeTarget "BetterUpdatesStartupLauncher" */;
+			buildPhases = (
+				377C22881E55E21200BDAA15 /* Sources */,
+				377C22891E55E21200BDAA15 /* Frameworks */,
+				377C228A1E55E21200BDAA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterUpdatesStartupLauncher;
+			productName = BetterUpdatesStartupLauncher;
+			productReference = 377C228C1E55E21200BDAA15 /* BetterUpdatesStartupLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 		37A64A021E5448430064CF8B /* BetterUpdates */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A64A121E5448430064CF8B /* Build configuration list for PBXNativeTarget "BetterUpdates" */;
@@ -71,6 +259,7 @@
 				37A649FF1E5448430064CF8B /* Sources */,
 				37A64A001E5448430064CF8B /* Frameworks */,
 				37A64A011E5448430064CF8B /* Resources */,
+				377C229B1E55E2C400BDAA15 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -91,9 +280,14 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Philippe Weidmann";
 				TargetAttributes = {
+					377C228B1E55E21200BDAA15 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
 					37A64A021E5448430064CF8B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = CZLT48TREY;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -112,39 +306,72 @@
 			projectRoot = "";
 			targets = (
 				37A64A021E5448430064CF8B /* BetterUpdates */,
+				377C228B1E55E21200BDAA15 /* BetterUpdatesStartupLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		377C228A1E55E21200BDAA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C22931E55E21200BDAA15 /* Assets.xcassets in Resources */,
+				377C22961E55E21200BDAA15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37A64A011E5448430064CF8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				37A64A0B1E5448430064CF8B /* Assets.xcassets in Resources */,
-				37A64A0E1E5448430064CF8B /* Main.storyboard in Resources */,
+				37CF83201E5503E600B9FDB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		377C22881E55E21200BDAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377C228F1E55E21200BDAA15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37A649FF1E5448430064CF8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E9B31F1E5493DF006825F2 /* PurchaseDownloadObserver.swift in Sources */,
 				37A64A091E5448430064CF8B /* ViewController.swift in Sources */,
-				37A64A071E5448430064CF8B /* AppDelegate.swift in Sources */,
+				37E9B3201E5493DF006825F2 /* SSPurchase.swift in Sources */,
+				37E9B3231E5493DF006825F2 /* NSURLSession+Synchronous.swift in Sources */,
+				37E9B31E1E5493DF006825F2 /* ISStoreAccount.swift in Sources */,
+				37E9B3211E5493DF006825F2 /* Error.swift in Sources */,
+				37E9B3241E5493DF006825F2 /* Utilities.swift in Sources */,
+				379903911E5D999500AD35B8 /* AppDelegate.swift in Sources */,
+				37E9B31D1E5493DF006825F2 /* Downloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37A64A0C1E5448430064CF8B /* Main.storyboard */ = {
+		377C22941E55E21200BDAA15 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				37A64A0D1E5448430064CF8B /* Base */,
+				377C22951E55E21200BDAA15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37CF831E1E5503E600B9FDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CF831F1E5503E600B9FDB8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -152,6 +379,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		377C22991E55E21200BDAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BetterUpdatesStartupLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.immortal.BetterUpdatesStartupLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		377C229A1E55E21200BDAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BetterUpdatesStartupLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.immortal.BetterUpdatesStartupLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		37A64A101E5448430064CF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -246,12 +505,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CZLT48TREY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = BetterUpdates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.immortal.BetterUpdates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetterUpdates/BetterUpdates-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -260,12 +527,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CZLT48TREY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = BetterUpdates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.immortal.BetterUpdates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetterUpdates/BetterUpdates-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -273,6 +547,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		377C22981E55E21200BDAA15 /* Build configuration list for PBXNativeTarget "BetterUpdatesStartupLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377C22991E55E21200BDAA15 /* Debug */,
+				377C229A1E55E21200BDAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		37A649FE1E5448430064CF8B /* Build configuration list for PBXProject "BetterUpdates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -289,6 +572,7 @@
 				37A64A141E5448430064CF8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

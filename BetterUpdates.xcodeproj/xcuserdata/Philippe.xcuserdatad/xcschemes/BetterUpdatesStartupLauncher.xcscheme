@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37A64A021E5448430064CF8B"
-               BuildableName = "BetterUpdates.app"
-               BlueprintName = "BetterUpdates"
+               BlueprintIdentifier = "377C228B1E55E21200BDAA15"
+               BuildableName = "BetterUpdatesStartupLauncher.app"
+               BlueprintName = "BetterUpdatesStartupLauncher"
                ReferencedContainer = "container:BetterUpdates.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37A64A021E5448430064CF8B"
-            BuildableName = "BetterUpdates.app"
-            BlueprintName = "BetterUpdates"
+            BlueprintIdentifier = "377C228B1E55E21200BDAA15"
+            BuildableName = "BetterUpdatesStartupLauncher.app"
+            BlueprintName = "BetterUpdatesStartupLauncher"
             ReferencedContainer = "container:BetterUpdates.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37A64A021E5448430064CF8B"
-            BuildableName = "BetterUpdates.app"
-            BlueprintName = "BetterUpdates"
+            BlueprintIdentifier = "377C228B1E55E21200BDAA15"
+            BuildableName = "BetterUpdatesStartupLauncher.app"
+            BlueprintName = "BetterUpdatesStartupLauncher"
             ReferencedContainer = "container:BetterUpdates.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37A64A021E5448430064CF8B"
-            BuildableName = "BetterUpdates.app"
-            BlueprintName = "BetterUpdates"
+            BlueprintIdentifier = "377C228B1E55E21200BDAA15"
+            BuildableName = "BetterUpdatesStartupLauncher.app"
+            BlueprintName = "BetterUpdatesStartupLauncher"
             ReferencedContainer = "container:BetterUpdates.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

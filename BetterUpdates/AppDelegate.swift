@@ -47,6 +47,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
         performCheck()
 
     }
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        main = NSStoryboard(name : "Main", bundle: nil).instantiateController(withIdentifier: "MainWindow") as! NSWindowController
+        let mainVc = NSStoryboard(name:"Main", bundle: nil).instantiateController(withIdentifier: "MainViewController") as! ViewController
+        main.window?.contentViewController = mainVc
+        main.window?.makeKeyAndOrderFront(nil)
+        return true
+    }
     
     func applicationWillFinishLaunching(_ notification: Notification) {
         NSApplication.shared().mainWindow?.close()
